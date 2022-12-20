@@ -11,6 +11,6 @@ const Notification = ({ message }) => {
 
 export default Notification;
 
-Section.propTypes = {
+Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
